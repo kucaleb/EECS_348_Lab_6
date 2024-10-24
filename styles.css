@@ -1,0 +1,44 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+#background {
+    background-image: url("pictures/big_jay_background.jpeg");
+}
+
+#punkin {
+    background-image: url("pictures/background.jpeg");
+}
+
+#banner {
+    background-color:#1478fb;
+    width: 100%;
+    height: 100px;
+    margin: 0px;
+    padding: 0px;
+}
+
+#banner li {
+    float: left;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    height: 100px;
+    text-align: center;
+}
+
+#banner li:hover {
+    background-color: #FB5A62;
+    cursor: pointer;
+}
+
+#banner li a {
+    display: block;
+    color:white;
+    text-align: center;
+    padding: 20px 14px;
+    text-decoration: none;
+    font-size:4ch;
+}
